@@ -1,0 +1,34 @@
+.card-pricing__container{
+    position: absolute;
+    bottom: 0px;
+    left: 0px; /*depois de colocar a posição absoluta, é necessário colocar as coordenadas da posição em que o elemento está*/
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-pricing__title{
+    margin-bottom: 3px;
+}
+
+.card-pricing__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-pricing__price__console{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-pricing__price__console > span{
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 10px;
+}

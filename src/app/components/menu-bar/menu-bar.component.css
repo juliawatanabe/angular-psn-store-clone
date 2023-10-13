@@ -1,0 +1,45 @@
+.menu-bar__container{
+    display: flex;
+    flex-direction: row;
+    position: fixed; /* torna o menu fixo na tela */
+    z-index: 999; /*força a ter um plano cartesiano na tela, esse valor faz com que o item sempre seja um elemento na frente nada passando por cima*/
+    background-color: aliceblue;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu-bar__logo{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__items{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.menu-bar__items > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu-bar__items > ul > li{
+    padding: 5px;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI';
+    padding: 5px;
+}
+
+a:hover{
+    color: rgb(68, 68, 141);
+    font-weight: 500;
+}
